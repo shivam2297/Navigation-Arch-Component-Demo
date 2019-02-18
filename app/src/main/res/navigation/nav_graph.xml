@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.shivam.navigationcomponentdemo.fragments.home.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_nextFragment"
@@ -28,12 +28,12 @@
     <fragment
         android:id="@+id/nextFragment"
         android:name="com.example.shivam.navigationcomponentdemo.fragments.next.NextFragment"
-        android:label="fragment_next"
+        android:label="Next"
         tools:layout="@layout/fragment_next" />
     <fragment
         android:id="@+id/sharedElementFragment"
         android:name="com.example.shivam.navigationcomponentdemo.fragments.shared_element_transition.SharedElementFragment"
-        android:label="fragment_shared_element"
+        android:label="Shared Element"
         tools:layout="@layout/fragment_shared_element" />
 
 </navigation>
